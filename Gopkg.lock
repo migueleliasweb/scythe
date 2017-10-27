@@ -29,19 +29,19 @@
   branch = "master"
   name = "github.com/golang/protobuf"
   packages = ["proto","ptypes","ptypes/any","ptypes/duration","ptypes/timestamp"]
-  revision = "130e6b02ab059e7b717a096f397c5b60111cae74"
+  revision = "1643683e1b54a9e88ad26d98f81400c8c9d9f4f9"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/net"
   packages = ["context","http2","http2/hpack","idna","internal/timeseries","lex/httplex","trace"]
-  revision = "a04bdaca5b32abe1c069418fb7088ae607de5bd0"
+  revision = "7b572d500b0702f1ea30a47083ce2e1e5c61edba"
 
 [[projects]]
   branch = "master"
   name = "golang.org/x/text"
   packages = ["collate","collate/build","internal/colltab","internal/gen","internal/tag","internal/triegen","internal/ucd","language","secure/bidirule","transform","unicode/bidi","unicode/cldr","unicode/norm","unicode/rangetable"]
-  revision = "825fc78a2fd6fa0a5447e300189e3219e05e1f25"
+  revision = "6eab0e8f74e86c598ec3b6fad4888e0c11482d48"
 
 [[projects]]
   branch = "master"
@@ -52,7 +52,8 @@
 [[projects]]
   name = "google.golang.org/grpc"
   packages = [".","balancer","codes","connectivity","credentials","grpclb/grpc_lb_v1/messages","grpclog","internal","keepalive","metadata","naming","peer","resolver","stats","status","tap","transport"]
-  version = "v1.5.0"
+  revision = "61d37c5d657a47e4404fd6823bd598341a2595de"
+  version = "v1.7.1"
 
 [[projects]]
   branch = "v2"
@@ -64,17 +65,17 @@
   branch = "master"
   name = "k8s.io/apimachinery"
   packages = ["pkg/version"]
-  revision = "e9a29eff7d472df0f7da9ead5ab59b74e74a07ec"
+  revision = "d9697193dfed7468f65da0d9d231c20b634425df"
 
 [[projects]]
   name = "k8s.io/helm"
   packages = ["pkg/chartutil","pkg/helm","pkg/ignore","pkg/proto/hapi/chart","pkg/proto/hapi/release","pkg/proto/hapi/services","pkg/proto/hapi/version","pkg/version"]
-  revision = "be3ae4ea91b2960be98c07e8f73754e67e87963c"
-  version = "v2.6.2"
+  revision = "08c1144f5eb3e3b636d9775617287cc26e53dba4"
+  version = "v2.7.0"
 
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "1ca9918fe3bfb18a55abb97f698700560dcf8a365bd0f797b822f81cb3106785"
+  inputs-digest = "f26d7edb3da8eb1d87e85eb2c641b2f928d5541bb6409f062b90cb8fb020d907"
   solver-name = "gps-cdcl"
   solver-version = 1
