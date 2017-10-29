@@ -13,9 +13,9 @@ const (
 
 func main() {
 	c := helm.NewClient(helm.Host(address))
-	response := c.ListReleases()
+	response, _ := c.ListReleases()
 
-	for r := range response.GetReleases() {
+	for _, r := range response.GetReleases() {
 		log.Println(r)
 	}
 }
